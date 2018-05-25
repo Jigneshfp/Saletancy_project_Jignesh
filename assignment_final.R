@@ -6,6 +6,8 @@
 #loads required packages
 library(tidyverse)
 library(readxl)
+options(warn = -1)   #Had to add this as it was giving not relevant warnings
+
 
 files_list1 <- list("EngineeringHardware02.xlsx", "EngineeringHardware03.xlsx", "EngineeringHardware05.xlsx",
                     "EngineeringHardware06.xlsx", "EngineeringHardware07.xlsx", "EngineeringHardware08.xlsx",
